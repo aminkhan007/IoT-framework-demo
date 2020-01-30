@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>ARP Poision</title>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src ='..//js/arp_poision.js'>
+                 </script>
+                 <link rel="stylesheet" href="../css/arp_poision.css">
+    </head>
+    <body>
+        <div id ='Main_body'>
+            <form onsubmit="return false">
+                <h1>
+                    ARP Poision Demo
+                </h1>
+                <br>
+                <h4>
+                    Target IP
+                </h4>
+                <input type = 'text' id ='target_ip'>
+                <br>
+                <h4>
+                    Gateway IP
+                </h4>
+                <input type = 'text' id ='gateway_ip'>
+                <br>
+                <br>
+                <input type='submit' onclick ='send_request()'>
+                
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id ='Result'>
+
+        </div>
+    </body>
+</html>

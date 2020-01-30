@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Find DDOS HTML</title>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src ='..//js/find_ddos.js'>
+                 </script>
+                 <link rel="stylesheet" href="../css/find_ddos.css">
+    </head>
+    <body>
+        <div id ='Main_body'>
+            <form onsubmit="return false">
+                <h1>
+                    Find DDOS Demo
+                </h1>
+                <br>
+                <h4>
+                    Enter PCAP File Name
+                </h4>
+                <input type = 'text' id ='pcap_file'>
+                <br>
+                <br>
+                <br>
+                <input type='submit' onclick ='send_request()'>
+                
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id ='Result'>
+
+        </div>
+    </body>
+</html>
